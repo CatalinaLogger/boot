@@ -1,0 +1,6 @@
+# 开放所有Web Endpoints
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' 
